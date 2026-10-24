@@ -1,0 +1,474 @@
+{
+ "version": 1,
+ "game": "chess4",
+ "steps": [
+  {
+   "title": "配置",
+   "text": "4 人で遊ぶチェスです。赤・青・黄・緑の順に指します。十字の形の盤で、四隅は使いません。",
+   "board": {
+    "pieces": [
+     {
+      "at": 185,
+      "owner": 0,
+      "kind": "R"
+     },
+     {
+      "at": 186,
+      "owner": 0,
+      "kind": "N"
+     },
+     {
+      "at": 187,
+      "owner": 0,
+      "kind": "B"
+     },
+     {
+      "at": 188,
+      "owner": 0,
+      "kind": "Q"
+     },
+     {
+      "at": 189,
+      "owner": 0,
+      "kind": "K"
+     },
+     {
+      "at": 190,
+      "owner": 0,
+      "kind": "B"
+     },
+     {
+      "at": 191,
+      "owner": 0,
+      "kind": "N"
+     },
+     {
+      "at": 192,
+      "owner": 0,
+      "kind": "R"
+     },
+     {
+      "at": 171,
+      "owner": 0,
+      "kind": "P"
+     },
+     {
+      "at": 172,
+      "owner": 0,
+      "kind": "P"
+     },
+     {
+      "at": 173,
+      "owner": 0,
+      "kind": "P"
+     },
+     {
+      "at": 174,
+      "owner": 0,
+      "kind": "P"
+     },
+     {
+      "at": 175,
+      "owner": 0,
+      "kind": "P"
+     },
+     {
+      "at": 176,
+      "owner": 0,
+      "kind": "P"
+     },
+     {
+      "at": 177,
+      "owner": 0,
+      "kind": "P"
+     },
+     {
+      "at": 178,
+      "owner": 0,
+      "kind": "P"
+     },
+     {
+      "at": 42,
+      "owner": 1,
+      "kind": "R"
+     },
+     {
+      "at": 56,
+      "owner": 1,
+      "kind": "N"
+     },
+     {
+      "at": 70,
+      "owner": 1,
+      "kind": "B"
+     },
+     {
+      "at": 84,
+      "owner": 1,
+      "kind": "Q"
+     },
+     {
+      "at": 98,
+      "owner": 1,
+      "kind": "K"
+     },
+     {
+      "at": 112,
+      "owner": 1,
+      "kind": "B"
+     },
+     {
+      "at": 126,
+      "owner": 1,
+      "kind": "N"
+     },
+     {
+      "at": 140,
+      "owner": 1,
+      "kind": "R"
+     },
+     {
+      "at": 43,
+      "owner": 1,
+      "kind": "P"
+     },
+     {
+      "at": 57,
+      "owner": 1,
+      "kind": "P"
+     },
+     {
+      "at": 71,
+      "owner": 1,
+      "kind": "P"
+     },
+     {
+      "at": 85,
+      "owner": 1,
+      "kind": "P"
+     },
+     {
+      "at": 99,
+      "owner": 1,
+      "kind": "P"
+     },
+     {
+      "at": 113,
+      "owner": 1,
+      "kind": "P"
+     },
+     {
+      "at": 127,
+      "owner": 1,
+      "kind": "P"
+     },
+     {
+      "at": 141,
+      "owner": 1,
+      "kind": "P"
+     },
+     {
+      "at": 10,
+      "owner": 2,
+      "kind": "R"
+     },
+     {
+      "at": 9,
+      "owner": 2,
+      "kind": "N"
+     },
+     {
+      "at": 8,
+      "owner": 2,
+      "kind": "B"
+     },
+     {
+      "at": 7,
+      "owner": 2,
+      "kind": "Q"
+     },
+     {
+      "at": 6,
+      "owner": 2,
+      "kind": "K"
+     },
+     {
+      "at": 5,
+      "owner": 2,
+      "kind": "B"
+     },
+     {
+      "at": 4,
+      "owner": 2,
+      "kind": "N"
+     },
+     {
+      "at": 3,
+      "owner": 2,
+      "kind": "R"
+     },
+     {
+      "at": 24,
+      "owner": 2,
+      "kind": "P"
+     },
+     {
+      "at": 23,
+      "owner": 2,
+      "kind": "P"
+     },
+     {
+      "at": 22,
+      "owner": 2,
+      "kind": "P"
+     },
+     {
+      "at": 21,
+      "owner": 2,
+      "kind": "P"
+     },
+     {
+      "at": 20,
+      "owner": 2,
+      "kind": "P"
+     },
+     {
+      "at": 19,
+      "owner": 2,
+      "kind": "P"
+     },
+     {
+      "at": 18,
+      "owner": 2,
+      "kind": "P"
+     },
+     {
+      "at": 17,
+      "owner": 2,
+      "kind": "P"
+     },
+     {
+      "at": 153,
+      "owner": 3,
+      "kind": "R"
+     },
+     {
+      "at": 139,
+      "owner": 3,
+      "kind": "N"
+     },
+     {
+      "at": 125,
+      "owner": 3,
+      "kind": "B"
+     },
+     {
+      "at": 111,
+      "owner": 3,
+      "kind": "Q"
+     },
+     {
+      "at": 97,
+      "owner": 3,
+      "kind": "K"
+     },
+     {
+      "at": 83,
+      "owner": 3,
+      "kind": "B"
+     },
+     {
+      "at": 69,
+      "owner": 3,
+      "kind": "N"
+     },
+     {
+      "at": 55,
+      "owner": 3,
+      "kind": "R"
+     },
+     {
+      "at": 152,
+      "owner": 3,
+      "kind": "P"
+     },
+     {
+      "at": 138,
+      "owner": 3,
+      "kind": "P"
+     },
+     {
+      "at": 124,
+      "owner": 3,
+      "kind": "P"
+     },
+     {
+      "at": 110,
+      "owner": 3,
+      "kind": "P"
+     },
+     {
+      "at": 96,
+      "owner": 3,
+      "kind": "P"
+     },
+     {
+      "at": 82,
+      "owner": 3,
+      "kind": "P"
+     },
+     {
+      "at": 68,
+      "owner": 3,
+      "kind": "P"
+     },
+     {
+      "at": 54,
+      "owner": 3,
+      "kind": "P"
+     }
+    ],
+    "side": "first"
+   }
+  },
+  {
+   "title": "ポーン",
+   "text": "ポーンは自分から見て前へ進みます。最初だけ 2 マス進めます。",
+   "board": {
+    "pieces": [
+     {
+      "at": 175,
+      "owner": 0,
+      "kind": "P"
+     },
+     {
+      "at": 189,
+      "owner": 0,
+      "kind": "K"
+     },
+     {
+      "at": 98,
+      "owner": 1,
+      "kind": "K"
+     },
+     {
+      "at": 6,
+      "owner": 2,
+      "kind": "K"
+     },
+     {
+      "at": 97,
+      "owner": 3,
+      "kind": "K"
+     }
+    ],
+    "side": "first"
+   },
+   "quiz": {
+    "type": "tap",
+    "prompt": "ポーンが進める所を 1 つタップ",
+    "from": 175,
+    "answers": [
+     161,
+     147
+    ],
+    "anyOf": true,
+    "explanation": "最初のポーンは前に 1 マスか 2 マス進めます。"
+   }
+  },
+  {
+   "title": "昇格",
+   "text": "ポーンが自分から 8 段目（盤の真ん中）に着くとクイーンになります。",
+   "board": {
+    "pieces": [
+     {
+      "at": 105,
+      "owner": 0,
+      "kind": "P"
+     },
+     {
+      "at": 189,
+      "owner": 0,
+      "kind": "K"
+     },
+     {
+      "at": 98,
+      "owner": 1,
+      "kind": "K"
+     },
+     {
+      "at": 6,
+      "owner": 2,
+      "kind": "K"
+     },
+     {
+      "at": 97,
+      "owner": 3,
+      "kind": "K"
+     }
+    ],
+    "side": "first"
+   },
+   "highlight": [
+    91
+   ],
+   "quiz": {
+    "type": "choice",
+    "prompt": "真ん中に着いたポーンは？",
+    "options": [
+     "クイーンになる",
+     "取り除かれる",
+     "戻る"
+    ],
+    "answer": 0,
+    "explanation": "自分から 8 段目に着いたポーンは、自動でクイーンになります。"
+   }
+  },
+  {
+   "title": "キングを取られたら",
+   "text": "キングを取られた人は脱落。その人の駒は盤から消えます。最後に残った人の勝ちです。",
+   "board": {
+    "pieces": [
+     {
+      "at": 189,
+      "owner": 0,
+      "kind": "K"
+     },
+     {
+      "at": 98,
+      "owner": 1,
+      "kind": "K"
+     },
+     {
+      "at": 6,
+      "owner": 2,
+      "kind": "K"
+     },
+     {
+      "at": 97,
+      "owner": 3,
+      "kind": "K"
+     }
+    ],
+    "side": "first"
+   },
+   "highlight": [
+    189,
+    98,
+    6,
+    97
+   ],
+   "quiz": {
+    "type": "choice",
+    "prompt": "キングを取られた人は？",
+    "options": [
+     "脱落する",
+     "1 回休み",
+     "キングを置き直す"
+    ],
+    "answer": 0,
+    "explanation": "キングを取られると脱落し、その人の駒はすべて盤から消えます。"
+   }
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "version": 1,
+ "game": "minishogi",
+ "steps": [
+  {
+   "title": "目的と配置",
+   "text": "将棋を 5×5 にしたもの。駒は 玉・金・銀・角・飛・歩。駒の動きは将棋と同じです",
+   "board": {
+    "sfen": "rbsgk/4p/5/P4/KGSBR b - 1"
+   }
+  },
+  {
+   "title": "歩の動き",
+   "text": "歩は前に 1 つ",
+   "board": {
+    "sfen": "k4/5/2P2/5/4K b - 1"
+   },
+   "quiz": {
+    "type": "tap",
+    "prompt": "歩が進める所をタップ",
+    "answers": [
+     7
+    ],
+    "anyOf": false,
+    "explanation": "歩は前に 1 つだけ進めます。",
+    "from": 12
+   }
+  },
+  {
+   "title": "成り",
+   "text": "相手陣は一番上の 1 段だけ。入ると成れます",
+   "board": {
+    "sfen": "k4/5/2P2/5/4K b - 1"
+   },
+   "highlight": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "quiz": {
+    "type": "choice",
+    "prompt": "成れるのはどこに入った時？",
+    "options": [
+     "一番上の 1 段",
+     "上の 3 段",
+     "どこでも"
+    ],
+    "answer": 0,
+    "explanation": "5五将棋の相手陣は、一番上の 1 段だけです。"
+   }
+  },
+  {
+   "title": "詰み",
+   "text": "将棋と同じく、玉が逃げられなければ詰みです",
+   "board": {
+    "sfen": "4k/5/4G/5/K4 b G 1"
+   },
+   "quiz": {
+    "type": "choice",
+    "prompt": "どこに金を打てば詰み？",
+    "options": [
+     "１二",
+     "２三",
+     "３二"
+    ],
+    "answer": 0,
+    "explanation": "１二に金を打つと、１三の金が支えて玉の逃げ場がなくなります。"
+   }
+  }
+ ]
+}

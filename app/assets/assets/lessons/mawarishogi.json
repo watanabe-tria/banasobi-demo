@@ -1,0 +1,75 @@
+{
+ "version": 1,
+ "game": "mawarishogi",
+ "steps": [
+  {
+   "title": "遊び方",
+   "text": "将棋の盤のまわりを、すごろくのように回ります。金を 4 枚振って、出た目の数だけ進みます。",
+   "board": {
+    "players": 2,
+    "pieces": [
+     {"seat": 0, "pos": 0, "rank": 0},
+     {"seat": 1, "pos": 16, "rank": 0}
+    ],
+    "side": "first"
+   }
+  },
+  {
+   "title": "目の数え方",
+   "text": "表 1・横 5・縦に立つ 10・逆さに立つ 20・裏 0。4 枚とも裏なら 8。重なったり盤から落ちたら 0 です。",
+   "board": {
+    "players": 2,
+    "pieces": [
+     {"seat": 0, "pos": 0, "rank": 0},
+     {"seat": 1, "pos": 16, "rank": 0}
+    ],
+    "side": "first"
+   },
+   "quiz": {
+    "type": "choice",
+    "prompt": "金が 1 枚だけ横に立ったら何マス？",
+    "options": ["1", "5", "10"],
+    "answer": 1,
+    "explanation": "横に立った金は 1 枚で 5 マスです。"
+   }
+  },
+  {
+   "title": "出世",
+   "text": "角にぴったり止まるか、ひと回りすると出世します。歩→香→桂→銀→角→飛→王。",
+   "board": {
+    "players": 2,
+    "pieces": [
+     {"seat": 0, "pos": 8, "rank": 1},
+     {"seat": 1, "pos": 16, "rank": 0}
+    ],
+    "side": "first"
+   },
+   "quiz": {
+    "type": "choice",
+    "prompt": "歩の次は？",
+    "options": ["香", "金", "王"],
+    "answer": 0,
+    "explanation": "歩が出世すると香になります。図の赤い駒は角に止まって香になっています。"
+   }
+  },
+  {
+   "title": "上がり",
+   "text": "王で角にぴったり止まるか、王でひと回りしたら上がりです。",
+   "board": {
+    "players": 2,
+    "pieces": [
+     {"seat": 0, "pos": 7, "rank": 6},
+     {"seat": 1, "pos": 16, "rank": 0}
+    ],
+    "side": "first"
+   },
+   "quiz": {
+    "type": "choice",
+    "prompt": "上がりになるのは？",
+    "options": ["王で角に止まるかひと回りしたとき", "歩でひと回りしたとき", "金が全部表のとき"],
+    "answer": 0,
+    "explanation": "王になってから、角にぴったり止まるか、ひと回りすると勝ちです。"
+   }
+  }
+ ]
+}

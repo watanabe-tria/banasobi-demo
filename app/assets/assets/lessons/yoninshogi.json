@@ -1,0 +1,766 @@
+{
+  "version": 1,
+  "game": "yoninshogi",
+  "steps": [
+    {
+      "title": "配置",
+      "text": "4 人で遊ぶ将棋です。1 人 9 枚（玉・飛・金 2・銀 2・歩 3）。赤・青・黄・緑の順に指します。",
+      "board": {
+        "pieces": [
+          {
+            "at": 2,
+            "owner": 2,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 3,
+            "owner": 2,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 4,
+            "owner": 2,
+            "kind": "K",
+            "promoted": false
+          },
+          {
+            "at": 5,
+            "owner": 2,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 6,
+            "owner": 2,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 12,
+            "owner": 2,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 13,
+            "owner": 2,
+            "kind": "R",
+            "promoted": false
+          },
+          {
+            "at": 14,
+            "owner": 2,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 18,
+            "owner": 1,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 22,
+            "owner": 2,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 26,
+            "owner": 3,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 27,
+            "owner": 1,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 28,
+            "owner": 1,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 34,
+            "owner": 3,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 35,
+            "owner": 3,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 36,
+            "owner": 1,
+            "kind": "K",
+            "promoted": false
+          },
+          {
+            "at": 37,
+            "owner": 1,
+            "kind": "R",
+            "promoted": false
+          },
+          {
+            "at": 38,
+            "owner": 1,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 42,
+            "owner": 3,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 43,
+            "owner": 3,
+            "kind": "R",
+            "promoted": false
+          },
+          {
+            "at": 44,
+            "owner": 3,
+            "kind": "K",
+            "promoted": false
+          },
+          {
+            "at": 45,
+            "owner": 1,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 46,
+            "owner": 1,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 52,
+            "owner": 3,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 53,
+            "owner": 3,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 54,
+            "owner": 1,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 58,
+            "owner": 0,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 62,
+            "owner": 3,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 66,
+            "owner": 0,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 67,
+            "owner": 0,
+            "kind": "R",
+            "promoted": false
+          },
+          {
+            "at": 68,
+            "owner": 0,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 74,
+            "owner": 0,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 75,
+            "owner": 0,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 76,
+            "owner": 0,
+            "kind": "K",
+            "promoted": false
+          },
+          {
+            "at": 77,
+            "owner": 0,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 78,
+            "owner": 0,
+            "kind": "S",
+            "promoted": false
+          }
+        ],
+        "side": "first"
+      }
+    },
+    {
+      "title": "駒の動き",
+      "text": "駒の動きは将棋と同じです。飛車は縦横にどこまでも進めます。",
+      "board": {
+        "pieces": [
+          {
+            "at": 4,
+            "owner": 2,
+            "kind": "K",
+            "promoted": false
+          },
+          {
+            "at": 36,
+            "owner": 1,
+            "kind": "K",
+            "promoted": false
+          },
+          {
+            "at": 44,
+            "owner": 3,
+            "kind": "K",
+            "promoted": false
+          },
+          {
+            "at": 67,
+            "owner": 0,
+            "kind": "R",
+            "promoted": false
+          },
+          {
+            "at": 76,
+            "owner": 0,
+            "kind": "K",
+            "promoted": false
+          }
+        ],
+        "side": "first"
+      },
+      "quiz": {
+        "type": "tap",
+        "prompt": "飛車が動ける所を 1 つタップ",
+        "from": 67,
+        "answers": [
+          4,
+          13,
+          22,
+          31,
+          40,
+          49,
+          58,
+          63,
+          64,
+          65,
+          66,
+          68,
+          69,
+          70,
+          71
+        ],
+        "anyOf": true,
+        "explanation": "飛車は縦横にどこまでも進めます。自分の駒がいる升には進めず、駒を飛び越えることもできません。"
+      }
+    },
+    {
+      "title": "王を取られたら",
+      "text": "王を取られた人は脱落。その人の駒は盤から消えます。最後に残った人の勝ちです。",
+      "board": {
+        "pieces": [
+          {
+            "at": 2,
+            "owner": 2,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 3,
+            "owner": 2,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 4,
+            "owner": 2,
+            "kind": "K",
+            "promoted": false
+          },
+          {
+            "at": 5,
+            "owner": 2,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 6,
+            "owner": 2,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 12,
+            "owner": 2,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 13,
+            "owner": 2,
+            "kind": "R",
+            "promoted": false
+          },
+          {
+            "at": 14,
+            "owner": 2,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 18,
+            "owner": 1,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 22,
+            "owner": 2,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 26,
+            "owner": 3,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 27,
+            "owner": 1,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 28,
+            "owner": 1,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 34,
+            "owner": 3,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 35,
+            "owner": 3,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 36,
+            "owner": 1,
+            "kind": "K",
+            "promoted": false
+          },
+          {
+            "at": 37,
+            "owner": 1,
+            "kind": "R",
+            "promoted": false
+          },
+          {
+            "at": 38,
+            "owner": 1,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 42,
+            "owner": 3,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 43,
+            "owner": 3,
+            "kind": "R",
+            "promoted": false
+          },
+          {
+            "at": 44,
+            "owner": 3,
+            "kind": "K",
+            "promoted": false
+          },
+          {
+            "at": 45,
+            "owner": 1,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 46,
+            "owner": 1,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 52,
+            "owner": 3,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 53,
+            "owner": 3,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 54,
+            "owner": 1,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 58,
+            "owner": 0,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 62,
+            "owner": 3,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 66,
+            "owner": 0,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 67,
+            "owner": 0,
+            "kind": "R",
+            "promoted": false
+          },
+          {
+            "at": 68,
+            "owner": 0,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 74,
+            "owner": 0,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 75,
+            "owner": 0,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 76,
+            "owner": 0,
+            "kind": "K",
+            "promoted": false
+          },
+          {
+            "at": 77,
+            "owner": 0,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 78,
+            "owner": 0,
+            "kind": "S",
+            "promoted": false
+          }
+        ],
+        "side": "first"
+      },
+      "quiz": {
+        "type": "choice",
+        "prompt": "王を取られた人は？",
+        "options": [
+          "脱落する",
+          "1 回休み",
+          "王を打ち直す"
+        ],
+        "answer": 0,
+        "explanation": "王を取られた人は脱落します。最後まで残った 1 人の勝ちです。"
+      }
+    },
+    {
+      "title": "持ち駒",
+      "text": "取った駒は自分の持ち駒になり、自分の向きで打てます。",
+      "board": {
+        "pieces": [
+          {
+            "at": 2,
+            "owner": 2,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 3,
+            "owner": 2,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 4,
+            "owner": 2,
+            "kind": "K",
+            "promoted": false
+          },
+          {
+            "at": 5,
+            "owner": 2,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 6,
+            "owner": 2,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 12,
+            "owner": 2,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 13,
+            "owner": 2,
+            "kind": "R",
+            "promoted": false
+          },
+          {
+            "at": 14,
+            "owner": 2,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 18,
+            "owner": 1,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 22,
+            "owner": 2,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 26,
+            "owner": 3,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 27,
+            "owner": 1,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 28,
+            "owner": 1,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 34,
+            "owner": 3,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 35,
+            "owner": 3,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 36,
+            "owner": 1,
+            "kind": "K",
+            "promoted": false
+          },
+          {
+            "at": 37,
+            "owner": 1,
+            "kind": "R",
+            "promoted": false
+          },
+          {
+            "at": 38,
+            "owner": 1,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 42,
+            "owner": 3,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 43,
+            "owner": 3,
+            "kind": "R",
+            "promoted": false
+          },
+          {
+            "at": 44,
+            "owner": 3,
+            "kind": "K",
+            "promoted": false
+          },
+          {
+            "at": 45,
+            "owner": 1,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 46,
+            "owner": 1,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 52,
+            "owner": 3,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 53,
+            "owner": 3,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 54,
+            "owner": 1,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 58,
+            "owner": 0,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 62,
+            "owner": 3,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 66,
+            "owner": 0,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 67,
+            "owner": 0,
+            "kind": "R",
+            "promoted": false
+          },
+          {
+            "at": 68,
+            "owner": 0,
+            "kind": "P",
+            "promoted": false
+          },
+          {
+            "at": 74,
+            "owner": 0,
+            "kind": "S",
+            "promoted": false
+          },
+          {
+            "at": 75,
+            "owner": 0,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 76,
+            "owner": 0,
+            "kind": "K",
+            "promoted": false
+          },
+          {
+            "at": 77,
+            "owner": 0,
+            "kind": "G",
+            "promoted": false
+          },
+          {
+            "at": 78,
+            "owner": 0,
+            "kind": "S",
+            "promoted": false
+          }
+        ],
+        "side": "first"
+      },
+      "quiz": {
+        "type": "choice",
+        "prompt": "取った駒は？",
+        "options": [
+          "自分の持ち駒になる",
+          "盤から消える",
+          "取られた人に戻る"
+        ],
+        "answer": 0,
+        "explanation": "取った駒は成りを戻して、自分の向きで空いている升に打てます。王は持ち駒になりません。"
+      }
+    }
+  ]
+}
